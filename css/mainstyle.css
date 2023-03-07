@@ -1,0 +1,38 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.main-class{
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+}
+.left-class{
+  width: 20%;
+  height: 100%;
+  position: fixed;
+}
+.left-list{
+  line-height:250%
+}
+.link-left:link{text-decoration: none;}
+.link-left:hover{text-decoration: underline;}
+.center-class{
+  width: 51%;
+  background-color: blue;
+  color: red;
+  position: absolute;
+  left: 22%;
+  right: 27%;
+}
+.right-class{
+  right: 0;
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  background-color: orange;
+}
+.list-elem {
+  border: 1px solid gray;
+}
